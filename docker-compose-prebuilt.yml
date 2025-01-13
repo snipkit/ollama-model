@@ -1,0 +1,8 @@
+services:
+  ollama-model:
+    image: ghcr.io/khulnasoft-lab/ollama-model:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - OLLAMA_ENDPOINTS=http://192.168.1.10:11434,https://ollama1.remote.net,https://ollama2.remote.net
+    restart: unless-stopped
