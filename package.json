@@ -11,7 +11,7 @@
     "lint:fix": "eslint . --fix"
   },
   "keywords": [],
-  "author": "",
+  "author": "khulnasoft",
   "license": "ISC",
   "description": "",
   "dependencies": {
